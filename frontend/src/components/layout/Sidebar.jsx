@@ -18,7 +18,7 @@ const Sidebar = () => {
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600 shadow-lg shadow-indigo-500/20">
                     <Layout className="text-white" size={24} />
                 </div>
-                <span className="ml-3 text-xl font-bold tracking-tight text-white">Zyra</span>
+                <span className="ml-3 text-xl font-bold tracking-tight text-white">Kyra</span>
             </div>
 
             <nav className="flex-1 space-y-1 px-4">
