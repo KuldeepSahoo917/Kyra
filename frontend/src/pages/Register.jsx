@@ -31,7 +31,7 @@ const Register = () => {
             await register(name, email, password);
             showToast({ message: 'Account created successfully. Welcome!', type: 'success' });
             navigate('/');
-        } catch (err) {
+        } catch {
             // Error handled by store
         }
     };
@@ -44,7 +44,7 @@ const Register = () => {
                         <Layout className="text-white" size={28} />
                     </div>
                     <h1 className="mt-6 text-3xl font-bold tracking-tight text-white">Create an account</h1>
-                    <p className="mt-2 text-slate-400">Join Zyra to start managing your projects</p>
+                    <p className="mt-2 text-slate-400">Join Kyra to start managing your projects</p>
                 </div>
 
                 <Card className="!p-8">
