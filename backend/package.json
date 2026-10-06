@@ -1,5 +1,5 @@
 {
-  "name": "zyra-backend",
+  "name": "kyra-backend",
   "version": "1.0.0",
   "description": "SaaS Project Management Platform - Backend API",
   "main": "src/index.js",
