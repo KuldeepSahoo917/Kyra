@@ -1,4 +1,5 @@
-# Step 1: Build Frontend
+#For Production build, we will use multi-stage builds to reduce the final image size. The first stage will build the frontend and the second stage will build the backend and copy the frontend build into it.
+# Step 1: Build Frontend 
 FROM node:18-alpine AS frontend-build
 WORKDIR /app/frontend
 COPY frontend/package*.json ./
