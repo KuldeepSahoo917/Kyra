@@ -1,20 +1,17 @@
-# Loyiha Issues (Topilgan muammolar) - Farhodoff
 
-Loyiha ko'rib chiqilgandan so'ng aniqlangan kamchiliklar:
+Project Issues (Identified Problems)
 
-## ⚙️ Backend
-...
-5.  **User Model:** 
-    - [ ] Email uchun Regex validatsiya qo'shish kerak.
-    - [ ] Mongoose middleware-larda xavfsizlikni ta'minlash.
+Weaknesses identified after reviewing the project:
+## Backend
+###  User Model:
+- [ ] Need to add Regex validation for email.
+- [ ] Ensure security in Mongoose middleware.
 
-## 🎨 Frontend
-...
-4.  **Auth Store & API:**
-    - [ ] `window.location.href` o'rniga SPA navigation ishlatish kerak.
-    - [ ] `localStorage` o'rniga `HttpOnly` cookie-larni ko'rib chiqish tavsiya etiladi (agar xavfsizlik juda muhim bo'lsa).
-    - [ ] Zustand `persist` middleware ishlatish.
+## Frontend
+###  Auth Store & API:
+- [ ] Should use SPA navigation instead of window.location.href.
+- [ ] Recommended to consider HttpOnly cookies instead of localStorage (if security is critical).
+- [ ] Use Zustand persist middleware.
 
-
-## 🚀 Umumiy
-- [ ] Docker konfiguratsiyasida ma'lumotlar bazasi parollarini `.env` orqali boshqarish kerak.
+## General
+- [ ] Database passwords in Docker configuration must be managed via .env.
