@@ -40,7 +40,7 @@
 ![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
 
 ---
-# Zyra (SaaS Project Management Platform)
+# Kyra (SaaS Project Management Platform)
 
 A full-stack project management and collaboration platform inspired by Zyra and Trello. This application enables teams to seamlessly manage workspaces, track tasks across Kanban boards, and collaborate in real-time.
 
