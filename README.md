@@ -101,7 +101,7 @@ Create `.env` files in both directories.
 ```env
 NODE_ENV=development
 PORT=5001
-MONGO_URI=mongodb://localhost:27017/zyra  # Or your MongoDB Atlas URI
+MONGO_URI=mongodb://localhost:27017/kyra  # Or your MongoDB Atlas URI
 JWT_SECRET=your_super_secret_jwt_key
 JWT_EXPIRE=7d
 CLOUDINARY_CLOUD_NAME=your_cloud_name
